@@ -16,6 +16,16 @@ namespace Humans_Pandas_Robots
         {
         }
 
+        public void StartUp()
+        {
+            Console.WriteLine("The Robot has been Turned On.");
+        }
+
+        public void ShutDown()
+        {
+            Console.WriteLine("The Robot has been deactivated");
+        }
+
         public void IsTerminator()
         {
             Console.WriteLine("I'll Be Back...");

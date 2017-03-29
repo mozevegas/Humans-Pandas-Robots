@@ -15,9 +15,21 @@ namespace Humans_Pandas_Robots
 
         public string Food { get; set; }
 
+
+        public void GoToSleep()
+        {
+            Console.WriteLine("The Panda is Asleep. zzzzzzzzzzz");
+        }
+
+        public void WakeUp()
+        {
+            Console.WriteLine("The Panda is now Awake.");
+        }
+
+
         public void Eat()
         {
-            Console.WriteLine($"I have eaten a {Food}");
+            Console.WriteLine($"I have eaten {Food}");
         }
     }
 }
